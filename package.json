@@ -1,0 +1,21 @@
+{
+    "name": "pream-types",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lgooday/pream-types.git"
+    },
+    "scripts": {
+        "build": "rimraf ./dist && tsc -p src --declaration"
+    },
+    "dependencies": {
+        "mongoose": "^5.9.18"
+    },
+    "devDependencies": {
+        "@types/node": "^8.0.9",
+        "rimraf": "^3.0.2",
+        "ts-node": "^6.0.3",
+        "tslint": "^5.18.0",
+        "typescript": "^3.7.5"
+    }
+}
