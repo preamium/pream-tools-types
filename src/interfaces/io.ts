@@ -5,6 +5,7 @@ export interface IRenderInput {
 
 export interface IRenderOutput {
     dom: string;
-    style: string;
+    style?: string;
     header?: string;
+    iconClass?: string;
 }
