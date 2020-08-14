@@ -12,6 +12,7 @@
         "mongoose": "^5.9.18"
     },
     "devDependencies": {
+        "@types/mongoose": "^5.7.36",
         "@types/node": "^8.0.9",
         "rimraf": "^3.0.2",
         "ts-node": "^6.0.3",
