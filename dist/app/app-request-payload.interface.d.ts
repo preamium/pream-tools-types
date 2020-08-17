@@ -1,6 +1,5 @@
-import { ISite, IChannel, IApp } from '..';
+import { ISite, IChannel } from '..';
 export interface IAppRequestPayload {
-    app: IApp;
     site: ISite;
     channel: IChannel;
 }
