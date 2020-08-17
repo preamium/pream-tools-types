@@ -1,4 +1,4 @@
-import { IRenderOutput } from "interfaces";
+import { IRenderOutput } from '..';
 export interface IAppResponse {
     content: IRenderOutput;
 }
