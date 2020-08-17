@@ -1,5 +1,5 @@
 import { IRenderOutput } from '..'
 
-export interface IAppResponse {
+export interface IAppResponsePayload {
     content: IRenderOutput;
 }

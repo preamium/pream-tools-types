@@ -5,7 +5,7 @@ import { IStream } from './models/stream.interface'
 import { IRenderInput } from './render/render-input.interface'
 import { IRenderOutput } from './render/render-output.interface'
 import { IScreenResponse } from './screen/screen-response.interface'
-import { IAppRequest } from './app/app-request.interface'
-import { IAppResponse } from './app/app-response.interface'
+import { IAppRequestPayload } from './app/app-request-payload.interface'
+import { IAppResponsePayload } from './app/app-response-payload.interface'
 
-export { IApp, IChannel, ISite, IStream, IRenderInput, IRenderOutput, IScreenResponse, IAppRequest, IAppResponse }
+export { IApp, IChannel, ISite, IStream, IRenderInput, IRenderOutput, IScreenResponse, IAppRequestPayload, IAppResponsePayload }
