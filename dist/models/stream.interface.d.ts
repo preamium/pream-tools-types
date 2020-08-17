@@ -1,7 +1,5 @@
 import * as mongoose from 'mongoose';
-import { ISite } from './site.interface';
-import { IChannel } from './channel.interface';
-import { IApp } from './app.interface';
+import { ISite, IChannel, IApp } from '..';
 export interface IStream extends mongoose.Document {
     key: string;
     site: ISite;
