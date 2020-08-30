@@ -1,4 +1,4 @@
 export interface IRenderInput {
-    content: string;
+    content: any;
     header: string;
 }
