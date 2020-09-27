@@ -1,5 +1,5 @@
 import * as mongoose from 'mongoose'
-import { ISite, IChannel, IApp } from '..'
+import { ISite, IChannel } from '..'
 
 export interface IStream extends mongoose.Document {
     key: string,

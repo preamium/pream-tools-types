@@ -5,5 +5,4 @@ export interface ISite extends mongoose.Document {
     lang: string,
     timezone: string,
     woeid: string,
-    clocks: string[]
 }
