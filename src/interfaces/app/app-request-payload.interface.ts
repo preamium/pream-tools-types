@@ -1,4 +1,4 @@
-import { ISite, IChannel, IApp } from '..'
+import { ISite, IChannel } from '..'
 
 export interface IAppRequestPayload {
     site: ISite;
