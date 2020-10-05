@@ -1,5 +1,4 @@
-import { IRenderOutput } from '..'
-
 export interface IAppResponsePayload {
-    content: IRenderOutput;
+    content: any;
+    header: string;
 }

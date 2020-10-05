@@ -8,7 +8,6 @@ import { IRenderOutput } from './render/render-output.interface'
 import { IScreenResponse } from './screen/screen-response.interface'
 import { IAppRequestPayload } from './app/app-request-payload.interface'
 import { IAppResponsePayload } from './app/app-response-payload.interface'
-import { OneLinerTypes } from './models/one-liner-types.enum'
 
 export {
     ITemplate,
@@ -21,5 +20,4 @@ export {
     IScreenResponse,
     IAppRequestPayload,
     IAppResponsePayload,
-    OneLinerTypes,
 }
