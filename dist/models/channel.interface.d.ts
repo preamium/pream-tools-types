@@ -1,6 +1,6 @@
 import { IApp } from '..';
 import * as mongoose from 'mongoose';
-import { ITemplate } from './template.interface';
+import { ITemplate } from '..';
 export interface IChannel extends mongoose.Document {
     name: string;
     template: ITemplate;
