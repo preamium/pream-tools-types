@@ -3,7 +3,14 @@ import { IApp, ITemplate } from '..'
 
 export interface IStackAppDefinition extends mongoose.Document {
     app: IApp,
-    params: any,
+    params: [
+        {
+            woeid?: string,
+            title?: string,
+            timezone?: string,
+            lang?: string,
+        }
+    ],
     template: string,
 }
 
