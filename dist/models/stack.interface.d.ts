@@ -2,12 +2,12 @@ import * as mongoose from 'mongoose';
 import { IApp } from '..';
 export interface IStackAppDefinition extends mongoose.Document {
     app: IApp;
-    params: [{
+    params: {
         woeid?: string;
         title?: string;
         timezone?: string;
         lang?: string;
-    }];
+    };
     template: string;
 }
 export interface IStack extends mongoose.Document {
