@@ -3,6 +3,7 @@ import { IChannel } from './models/channel.interface'
 import { ISite } from './models/site.interface'
 import { ITemplate } from './models/template.interface'
 import { IStream } from './models/stream.interface'
+import { IStack, IStackAppDefinition } from './models/stack.interface'
 import { IRenderInput } from './render/render-input.interface'
 import { IRenderOutput } from './render/render-output.interface'
 import { IScreenResponse } from './screen/screen-response.interface'
@@ -20,4 +21,6 @@ export {
     IScreenResponse,
     IAppRequestPayload,
     IAppResponsePayload,
+    IStack,
+    IStackAppDefinition,
 }

@@ -3,4 +3,5 @@ export interface ITemplate extends mongoose.Document {
     type: string;
     dom: string;
     style: string;
+    description: string;
 }
