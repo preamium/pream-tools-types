@@ -4,7 +4,7 @@ import { IApp, ITemplate } from '..'
 export interface IStackAppDefinition extends mongoose.Document {
     app: IApp,
     params: any,
-    template: ITemplate,
+    template: string,
 }
 
 export interface IStack extends mongoose.Document {

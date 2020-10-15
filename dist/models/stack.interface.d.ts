@@ -1,9 +1,9 @@
 import * as mongoose from 'mongoose';
-import { IApp, ITemplate } from '..';
+import { IApp } from '..';
 export interface IStackAppDefinition extends mongoose.Document {
     app: IApp;
     params: any;
-    template: ITemplate;
+    template: string;
 }
 export interface IStack extends mongoose.Document {
     attach: string;
